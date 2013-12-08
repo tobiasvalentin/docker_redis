@@ -1,4 +1,4 @@
-FROM        ubuntu:12.10
+FROM        ubuntu
 RUN         apt-get update
 RUN         apt-get -y install redis-server
 EXPOSE      6379
